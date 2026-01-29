@@ -1,31 +1,116 @@
-🏥 Online Doctor Appointment Booking System
+🏥 **Prescribia** - Online Doctor Appointment Booking System
 
-A full-stack MERN application that allows patients to book doctor appointments online and doctors to manage their availability.
+**Prescribia** is an end-to-end **Online Doctor Appointment Booking System** built using the **MERN stack**. This application allows patients to book appointments with doctors based on real-time availability, choose preferred time slots, make secure online payments using **Stripe**, and manage appointments efficiently. The platform also provides dedicated dashboards for **Admin** and **Doctors** to manage schedules and appointment statuses.
 
-✨ Features
+---
 
-● Patient and Doctor authentication (JWT-based)
+✨ **Features**
 
-● Doctor search and availability management
+👤 **Patient Features**
 
-● Appointment booking with conflict prevention
 
-● Role-based access control
+● User registration and login (JWT authentication)
 
-● Responsive user interface
+● Browse and search doctors
 
-🛠 Tech Stack
+● View doctor profiles and availability
 
-● Frontend: React.js
+● Select preferred time slots
 
-● Backend: Node.js, Express.js
+● Book appointments online
 
-● Database: MongoDB, Mongoose
+● Secure online payment using **Stripe**
 
-📌 Architecture
+● Cancel appointments
 
-● MVC architecture
+● View appointment history and status
 
-● RESTful APIs
+---
 
+👨‍⚕️ **Doctor Features**
+
+● Secure doctor login
+
+● Doctor dashboard
+
+● Manage availability and time slots
+
+● View assigned appointments
+
+● Update appointment status
+
+---
+
+🛠️ **Admin Features**
+
+● Secure admin authentication
+
+● Add, update, and remove doctors
+
+● Manage doctor availability
+
+● View all appointments
+
+● Update appointment status (Cancelled, Completed)
+
+---
+
+💳 **Payment Integration**
+
+● Integrated **Stripe Payment Gateway** for secure online payments
+
+● Handles payment success and failure scenarios
+
+---
+
+🧰 **Tech Stack**
+
+**● Frontend**
+
+‣ React.js
+
+‣ JavaScript (ES6+)
+
+‣ HTML5
+
+‣ CSS3 / Tailwind CSS
+
+**● Backend**
+
+‣ Node.js
+
+‣ Express.js
+
+**● Database**
+
+‣ MongoDB
+
+‣ Mongoose
+
+**● Authentication & Payments**
+
+‣ JSON Web Tokens (JWT)
+
+‣ Role-Based Access Control (RBAC)
+
+‣ Stripe Payment Gateway
+
+**● Tools**
+
+‣ Git & GitHub
+
+‣ Postman (API testing)
+
+‣ VS Code
+
+---
+
+🏗️ **Project Architecture**
+
+● MVC (Model–View–Controller) architecture
+● RESTful API design
+● Role-based dashboards (Admin, Doctor, Patient)
 ● Centralized error handling
+● Secure API endpoints
+
+---
